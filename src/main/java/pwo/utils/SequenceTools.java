@@ -4,6 +4,13 @@ import java.io.FileWriter;
 import java.io.BufferedWriter;
 import java.io.IOException;
 
+/**
+ * Klasa narzędziowa służąca do obsługi obiektów implementujących
+ * interfejs SequenceGenerator
+ *
+ * @author natal
+ * @version 1.0.0
+ */
 public class SequenceTools {
 
     private static String getTerms(SequenceGenerator sg,

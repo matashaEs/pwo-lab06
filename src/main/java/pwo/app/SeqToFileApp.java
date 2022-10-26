@@ -5,6 +5,12 @@ import pwo.utils.SequenceTools;
 import java.nio.file.Paths;
 import java.nio.file.InvalidPathException;
 
+/**
+ * KLasa służąca do zapisu do pliku tekstowego  jednego z wybranych ciągów
+ *
+ * @author natal
+ * @version 1.0.0
+ */
 class SeqToFileApp {
 
     protected SeqType seqType = null;
@@ -36,6 +42,13 @@ class SeqToFileApp {
                 from, to, fileName);
     }
 
+    /**
+    * Funkcja odpowiedzialna za zapis do pliku. Funkcja sprawdza
+    * czy argumenty z linii poleceń zostały pobrane prawidłowo i
+    * wyświetla stosowny komunikat o udanym zapisie bądź błędzie
+    *
+    * @param args Argumenty wiersza poleceń
+    */
     public void run(String[] args) {
         System.out.println("Sequence to file CLI app");
 

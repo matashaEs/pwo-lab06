@@ -6,8 +6,11 @@ package pwo.app;
 import pwo.utils.SequenceTools;
 
 /**
+ * Klasa rozbudowująca działanie funkcji SeqToFileApp. Dodaje
+ * możliwość wypisania wyników na ekran konsoli.
  *
  * @author natal
+ * @version 1.0.0
  */
 public class SeqToOutApp extends SeqToFileApp {
 
@@ -28,6 +31,11 @@ public class SeqToOutApp extends SeqToFileApp {
         return true;
     }
 
+    /**
+    * Funkcja wypisująca wyrazy ciągu na ekran konsoli.
+    *
+    * @param args Argumenty linii poleceń
+    */
     @Override
     public void run(String[] args) {
         System.out.println("Sequence to terminal CLI app");
